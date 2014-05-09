@@ -4,9 +4,9 @@ Bundle-SymbolicName: org.scijava.osgi;singleton:=true
 Bundle-ManifestVersion: 2
 Bundle-Version: 0.0.1.qualifier
 Bundle-Vendor: University of Konstanz
-Require-Bundle: org.eclipse.core.runtime,
- org.eclipse.ui;bundle-version="3.7.0"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.ui;bundle-version="3.7.0",
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ClassPath: scijavaosgi.jar,
  lib/scijava-common-2.18.2-SNAPSHOT.jar,
  lib/eventbus-1.4.jar,
