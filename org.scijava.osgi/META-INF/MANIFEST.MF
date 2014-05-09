@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-Name: SciJava OSGi Demo
+Bundle-SymbolicName: org.scijava.osgi;singleton:=true
+Bundle-ManifestVersion: 2
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: University of Konstanz
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui;bundle-version="3.7.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ClassPath: scijavaosgi.jar,
+ lib/scijava-common-2.18.2-SNAPSHOT.jar,
+ lib/eventbus-1.4.jar,
+ lib/gentyref-1.1.0.jar
+Export-Package: org.scijava.osgi
+
